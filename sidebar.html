@@ -286,6 +286,7 @@
 			var t1=window.setInterval(function() {
 				if(main_x <= 0){
 					setMainX(0);
+					
 					window.clearInterval(t1); 
 					menu_isOpen = false;
 					return;
@@ -321,6 +322,9 @@
 			
 			//刷新主界面宽度
 			if(page_width >= change_value){
+				main_head.style.width = 
+				main_center.style.width = 
+				main_foot.style.width = 
 				xin_main.style.width = page_width - main_x +"px";
 			}
 			
@@ -334,6 +338,9 @@
 			xin_main.style.transform = "translateX("+main_x+"px)";
 			//刷新主界面宽度
 			if(page_width >= change_value){
+				main_head.style.width = 
+				main_center.style.width = 
+				main_foot.style.width = 
 				xin_main.style.width = page_width - main_x +"px";
 			}
 			
