@@ -1,0 +1,29 @@
+/* 组件必须的CSS样式 */
+#body{
+	padding: 0px;
+	margin:	0px;
+	overflow:hidden;	/*避免出现滚动条*/
+}
+#xin_menu{
+	background-color:	gray;
+	position:			fixed ;
+	overflow:			auto;   /*当内容超出div时出现滚动条*/  
+}
+
+
+#xin_main{
+	background-color:	yellow;
+	position:			fixed ;
+	overflow:			auto;
+}
+#main_head{
+	background-color:	red;
+}
+
+#main_center{
+	background-color:	blue;
+	overflow:			auto;
+}
+#main_foot{
+	background-color:	green;
+		}
